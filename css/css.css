@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow-x: hidden; /* Impede rolagem horizontal */
+}
 
 
     .logo {
@@ -252,11 +252,6 @@ textarea {
 /* Responsividade */
 @media screen and (max-width: 768px) {
 
-     * {
-        box-sizing: border-box;
-    }
-
-    
     body{
        
             overflow-x: hidden; /* Impede rolagem horizontal */
@@ -268,11 +263,12 @@ textarea {
         text-align: center;
     }
 
-     .logo img {
+    .logo img {
         width: 80%;
         max-width: 300px;
         margin-bottom: 20px;
-        margin-left: 0; /* Garantir que a margem não empurre o conteúdo */
+        margin-left: 145px;
+        
     }
 
    
